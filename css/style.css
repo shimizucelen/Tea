@@ -1,0 +1,63 @@
+@charset="utf-8"
+
+html body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+h1 {
+    margin: 30px 20px 20px 70px;
+}
+
+ul {
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+
+}
+
+.box a {
+    text-align: center;
+    line-height: 100px;
+    color: white;
+
+}
+
+nav a :hover {
+    background-color: #eee;
+}
+
+.milk {
+    background-color: blue;
+
+}
+
+.lemon {
+    background-color: rgba(252, 216, 17, 0.9);
+    
+}
+
+.sonota {
+    background-color: red;
+    
+}
+
+.sns {
+    background-color: forestgreen;
+    
+}
+
+.ham {
+    background-color: cornflowerblue;
+}
